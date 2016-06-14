@@ -1,0 +1,42 @@
+html(xmlns='http://www.w3.org/1999/xhtml', lang='pl')
+head
+    link(href='/generated/all.css', media='screen', rel='stylesheet', type='text/css')
+    title Kwatery pracownicze - Brzeźno
+    meta(http-equiv='Content-Type', content='text/html;charset=utf-8')
+    meta(http-equiv='Content-Language', content='pl')
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+    meta(name='language', content='pl')
+    meta(name='description', content='Oferujemy tanie noclegi, kwatery pracownicze koło Konina. Pokoje jedno, dwu, trzy lub cztero osobowe. Telewizja, internet, WiFi, ogród i kuchnia do wyłącznej dyspozycji gości. Cena noclegu 25-40 zł za osobę.')
+    meta(name='keywords', content='noclegi, Konin, kwatery, pracownicze, Brzeńo, autostrada, motel, ogród, dom wypoczynkowy, grill, swoboda, internet, wifi, telewizja')
+    body
+        .header
+            .container
+                .row
+                    .col-md-12
+                        h1.logo
+                            .upper Noclegi Pracownicze
+                            .lower Brzeźno
+                                span= slogan || ' Konin'
+                .row
+                    .col-md-12
+                        //h2.slogan Zapraszamy Państwa do zapoznania się z naszą ofertą noclegową dla pracowników.
+                    // , która zlokalizowana jest w Brzeźnie przy ul. Leśnej 22.
+                    .col-md-6
+            .menu
+                .container
+                    .row
+                        .col-md-12
+                            ul.menu
+                                li
+                                    a(href="/") Strona główna
+                                li
+                                    a(href="/pokoje") Baza noclegowa
+                                li
+                                    a(href="/kontakt") Kontakt
+                        .clear
+        .container
+            block content
+        .container
+            .footer Wszelkie prawa zastrzeżone <b>Noclegi Pracownicze</b>, Leśna 22 Brzeźno, Konin tel. 
+                a.phone= phone
+    script(type="text/javascript", src="/generated/all.js")

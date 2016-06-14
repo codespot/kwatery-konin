@@ -1,0 +1,30 @@
+.container > .rooms {
+
+  img {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .garden {
+    background-image: url('/images/garden.jpg');
+    height: 300px;
+  }
+  
+  .features ul {
+    
+    padding-left: 0;
+    li {
+      line-height: 1.5em;
+
+      display: block;
+
+      &:before {
+        padding-right: 10px;
+        @extend .glyphicon;
+        @extend .glyphicon-ok;
+        font-size: 14px;
+        color: #3F3571;
+      }
+    }
+  }
+}

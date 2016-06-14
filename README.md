@@ -1,1 +1,1 @@
-# kwatery-konin
+# kwatery-konin.pl

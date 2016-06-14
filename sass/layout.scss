@@ -1,0 +1,30 @@
+//$text-color: #666;
+$font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$icon-font-path: '/fonts/';
+
+@import 'node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+@import 'header';
+@import 'index';
+@import 'contact';
+@import 'rooms';
+
+body {
+  font-size: 2em;
+  background: #fff;
+}
+
+.clear {
+  clear: both;
+}
+
+h3   {
+  margin-top: 40px;
+}
+
+.garden {
+  width: 400px;
+}
+
+.footer {
+  padding: 30px 0;
+}

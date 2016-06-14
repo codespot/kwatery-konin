@@ -1,0 +1,30 @@
+.index {
+
+  .row {
+    //display: flex;
+
+    //.col-md-6 {
+    //  padding: 30px 30px;
+    //  display: flex;
+    //  flex-direction: column;
+    //}
+
+    h3 {
+      //margin-top: 0;
+    }
+  }
+
+  a.more {
+    line-height: 1em;
+    padding: 10px;
+    background: linear-gradient(to bottom, #463d7c 0, #5f5499 100%);
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    
+    &:hover {
+      //background: 
+    }
+  }
+
+}
